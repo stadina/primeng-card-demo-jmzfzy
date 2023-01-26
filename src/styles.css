@@ -8,12 +8,15 @@ body {
  
     color: white;
  background-color: black;
+ border-radius: 10px;
+ 
 }
 .mycard.p-card {
   color: white;
   background-color: rgb(38, 39, 49);
   width: 25rem;
   margin-bottom: 20px;
+  border-radius: 10px;
 }
 
 .myinput {
@@ -45,6 +48,19 @@ body {
 }
 
 .first.p-button-warning.p-button {
-  margin-bottom: 22px;;
+  margin-bottom: 23px;;
   margin-left: 5px;
+}
+
+.p-button-warning.p-button {
+  margin-bottom: 20px;
+}
+.p-button-danger.p-button {
+  margin-bottom: 20px;
+}
+
+.mytext {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: -1px;
 }

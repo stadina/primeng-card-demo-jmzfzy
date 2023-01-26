@@ -16,11 +16,11 @@
 
 <p-button label="Info" styleClass="p-button-warning first"></p-button>
 
-    <p-card header="Advanced Card" subheader="Card Subheader" [style]="{width: '25rem'}" styleClass="shadow-2">
+    <p-card header="Advanced Card" subheader="Card Subheader" [style]="{'text-align': 'center', width: '25rem', 'border-radius': '20px'}" styleClass="shadow-2">
         <ng-template pTemplate="header">
-            <img alt="Card" src="https://picsum.photos/200/200">
+            <img alt="Card" src="https://picsum.photos/200/200" [style]="{'margin-left':'0px', 'margin-top': '35px',width: '20rem', 'border-radius': '20px'}" >
         </ng-template>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
+        <p class="mytext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
             quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!</p>
         <ng-template pTemplate="footer">
             <p-button label="Save" icon="pi pi-check" styleClass="p-button-warning"></p-button>
