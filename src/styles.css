@@ -21,11 +21,10 @@ body {
 
 .myinput {
   width: 25rem;
-
 }
 
 .myinput {
-  color: white;
+  color: rgb(24, 23, 23);
   background-color: rgb(207, 209, 228);
   width: 25rem;
   margin-bottom: 10px;
